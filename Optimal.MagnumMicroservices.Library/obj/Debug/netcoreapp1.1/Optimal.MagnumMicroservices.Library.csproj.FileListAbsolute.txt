@@ -1,7 +1,0 @@
-C:\VCS\Optimal.MagnumMicroservices.Library\Optimal.MagnumMicroservices.Library\bin\Debug\netcoreapp1.1\Optimal.MagnumMicroservices.Library.deps.json
-C:\VCS\Optimal.MagnumMicroservices.Library\Optimal.MagnumMicroservices.Library\bin\Debug\netcoreapp1.1\Optimal.MagnumMicroservices.Library.dll
-C:\VCS\Optimal.MagnumMicroservices.Library\Optimal.MagnumMicroservices.Library\bin\Debug\netcoreapp1.1\Optimal.MagnumMicroservices.Library.pdb
-C:\VCS\Optimal.MagnumMicroservices.Library\Optimal.MagnumMicroservices.Library\obj\Debug\netcoreapp1.1\Optimal.MagnumMicroservices.Library.AssemblyInfo.cs
-C:\VCS\Optimal.MagnumMicroservices.Library\Optimal.MagnumMicroservices.Library\obj\Debug\netcoreapp1.1\Optimal.MagnumMicroservices.Library.dll
-C:\VCS\Optimal.MagnumMicroservices.Library\Optimal.MagnumMicroservices.Library\obj\Debug\netcoreapp1.1\Optimal.MagnumMicroservices.Library.pdb
-C:\VCS\Optimal.MagnumMicroservices.Library\Optimal.MagnumMicroservices.Library\obj\Debug\netcoreapp1.1\Optimal.MagnumMicroservices.Library.csprojResolveAssemblyReference.cache
