@@ -1,4 +1,3 @@
-[submodule "Optimal.MagnumMicroservices.Library"]
-	path = Optimal.MagnumMicroservices.Library
-	url = git@bitbucket.org:optimalbi/magnum_microservices_dotnet_core_code_p1070.git
-	branch = master
+[submodule "MagnumBi.Dispatch.Client"]
+	path = MagnumBi.Dispatch.Client
+	url = ../magnumbi_dispatch_dotnet_core_code_p1070

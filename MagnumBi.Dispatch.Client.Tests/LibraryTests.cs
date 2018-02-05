@@ -3,12 +3,12 @@ using System.Net;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Optimal.MagnumMicroservices.Library.Tests{
+namespace MagnumBi.Dispatch.Client.Tests{
     public class LibraryTests : IDisposable{
-        private readonly MagnumMicroservicesClient client;
+        private readonly MagnumBiDispatchClient client;
 
         public LibraryTests(){
-            this.client = new MagnumMicroservicesClient("https://127.0.0.1:6883", "test", "token", false);
+            this.client = new MagnumBiDispatchClient("https://127.0.0.1:6883", "test", "token", false);
             this.CleanUp();
         }
 
@@ -26,7 +26,7 @@ namespace Optimal.MagnumMicroservices.Library.Tests{
         [Fact]
         public async void TestGetStatusCode(){
             HttpStatusCode code = await this.client.CheckStatusCode();
-            Assert.Equal(code, HttpStatusCode.OK);
+            Assert.Equal(HttpStatusCode.OK, code);
         }
 
         [Fact]
