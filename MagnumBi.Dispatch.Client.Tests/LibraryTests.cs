@@ -31,7 +31,7 @@ namespace MagnumBi.Dispatch.Client.Tests{
 
         [Fact]
         public async void TestGetJobOne(){
-            Job job = await this.client.GetJob("TEST", -1, 5);
+            DynamicJob job = await this.client.GetJob("TEST", -1, 5);
             Assert.Null(job); // Should be no jobs as queue should be empty.
         }
 
@@ -46,7 +46,7 @@ namespace MagnumBi.Dispatch.Client.Tests{
             Task queueTask = this.client.QueueJob("TEST", new{Thing = "thing", obj = new{test = "more"}});
             Task.WaitAll(queueTask);
 
-            Job job = await this.client.GetJob("TEST", -1, 22);
+            DynamicJob job = await this.client.GetJob("TEST", -1, 22);
             if (job != null) {
                 Assert.False(string.IsNullOrWhiteSpace(job.JobId));
                 Task completeTask = job.Complete();
@@ -57,9 +57,9 @@ namespace MagnumBi.Dispatch.Client.Tests{
         }
 
         private void CleanUp(){
-            Task<Job> task = this.client.GetJob("TEST", -1, 10);
+            Task<DynamicJob> task = this.client.GetJob("TEST", -1, 10);
             Task.WaitAll(task);
-            Job job = task.Result;
+            DynamicJob job = task.Result;
             while (job != null) {
                 Task t2 = job.Complete();
                 Task.WaitAll(t2);
