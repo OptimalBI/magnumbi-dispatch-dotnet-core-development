@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagnumBi.Dispatch.Client", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagnumBi.Dispatch.Client.Tests", "MagnumBi.Dispatch.Client.Tests\MagnumBi.Dispatch.Client.Tests.csproj", "{F61730E1-CB1D-4835-B37C-6D71897E0BF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnumBi.Dispatch.Client.Examples", "MagnumBi.Dispatch.Client.Examples\MagnumBi.Dispatch.Client.Examples.csproj", "{E81DE1A7-3206-47FE-872D-B6BFD1889D96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagnumBi.Dispatch.Client.Examples", "MagnumBi.Dispatch.Client.Examples\MagnumBi.Dispatch.Client.Examples.csproj", "{E81DE1A7-3206-47FE-872D-B6BFD1889D96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE1D50AE-6E68-4CA3-8CFD-04FE4B24A9E4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
